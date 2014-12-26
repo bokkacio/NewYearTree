@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Happy New Year!</string>
+    <string name="lightOnTitle">Ёлочка, гори</string>
+    <string name="lightOffTitle">Ёлочка, не гори</string>
+</resources>
