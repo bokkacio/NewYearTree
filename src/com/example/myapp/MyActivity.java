@@ -55,7 +55,10 @@ public class MyActivity extends Activity implements View.OnClickListener {
         lightOn.setOnClickListener(this);
         lightOff.setOnClickListener(this);
 
+        //A structure describing general information about a display, such as its size, density, and font scaling.
         DisplayMetrics dm = new DisplayMetrics();
+
+        //Retrieve the window manager for showing custom windows. -> Returns the Display upon which this WindowManager instance will create new windows. -> Gets display metrics based on the real size of this display.
         getWindowManager().getDefaultDisplay().getMetrics(dm);
         drawView = new DrawView(this, dm.heightPixels, dm.widthPixels);
         drawView.setBackgroundColor(Color.GRAY);
